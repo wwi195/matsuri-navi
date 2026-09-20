@@ -1,6 +1,6 @@
 // detail.js — イベント詳細画面の描画
 (function () {
-  const { loadData, getEventById, occurrences, genreCategory, formatDateRange, todayStr } = window.MatsuriData;
+  const { loadData, getEventById, occurrences, genreCategory, sourceInfo, formatDateRange, todayStr } = window.MatsuriData;
   const { mergeBlockedDates, getVisitedRecord, markVisited, unmarkVisited } = window.MatsuriStorage;
   const { renderAccessBlock, escapeHtml } = window.MatsuriAccess;
 
@@ -132,6 +132,7 @@
     const blockedDates = mergeBlockedDates(data.blockedDatesInitial);
     const block = blockedDates.find(b => b.date >= dateObj.start && b.date <= dateObj.end);
     const cat = genreCategory(ev);
+    const src = sourceInfo(ev);
     const visitedRecord = getVisitedRecord(ev.id);
     const isThisDateVisited = !!visitedRecord && visitedRecord.date === dateObj.start;
     const pastLabel = pastVisitLabel(visitedRecord, dateObj);
@@ -142,6 +143,7 @@
       <a class="back-link" href="index.html">← 一覧に戻る</a>
       <article class="detail cat-${cat.key}">
         <header class="detail-header">
+          <span class="source-badge source-badge-lg source-${src.key}">${src.icon} ${src.label}</span>
           <h1 class="detail-title">${escapeHtml(ev.name)}</h1>
           <div class="detail-date">${formatDateRange(dateObj)}${dateObj.timeStart ? `　${dateObj.timeStart}〜${dateObj.timeEnd || ''}` : ''}${dateObj.label ? ` <span class="date-tag">${escapeHtml(dateObj.label)}</span>` : ''}</div>
           ${ev.recurrence ? `<div class="detail-recurrence">${escapeHtml(ev.recurrence)}</div>` : ''}

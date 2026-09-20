@@ -1,8 +1,8 @@
 // list.js — トップ（カレンダー兼一覧）画面の描画
 (function () {
-  const { loadData, occurrences, genreCategory, todayStr, formatDateRange } = window.MatsuriData;
+  const { loadData, occurrences, genreCategory, sourceInfo, todayStr, formatDateRange } = window.MatsuriData;
   const { mergeBlockedDates, getVisitedRecord } = window.MatsuriStorage;
-  const { defaultState, monthsAvailable, applyFilters, renderMonthTabs, renderFilterPanel } = window.MatsuriFilter;
+  const { defaultState, monthsAvailable, applyFilters, renderMonthTabs, renderFilterPanel, updateFilterChipStates } = window.MatsuriFilter;
 
   function getAreaLabel(ev) {
     const addr = ev.venue && ev.venue.address;
@@ -39,6 +39,7 @@
 
   function eventCardHtml(ev, dateObj, dateIndex, blockedDates) {
     const cat = genreCategory(ev);
+    const src = sourceInfo(ev);
     const block = findBlock(blockedDates, dateObj);
     const visitedRecord = getVisitedRecord(ev.id);
     const isThisDateVisited = !!visitedRecord && visitedRecord.date === dateObj.start;
@@ -49,7 +50,7 @@
     return `
       <a class="event-card cat-${cat.key}${block ? ' is-blocked' : ''}" href="event.html?id=${encodeURIComponent(ev.id)}&d=${dateIndex}">
         <div class="event-card-main">
-          <div class="event-card-name">${window.MatsuriAccess.escapeHtml(ev.name)}${dateLabel}${pastLabel ? ` <span class="date-tag">${window.MatsuriAccess.escapeHtml(pastLabel)}</span>` : ''}</div>
+          <div class="event-card-name"><span class="source-badge source-${src.key}">${src.icon} ${src.label}</span> ${window.MatsuriAccess.escapeHtml(ev.name)}${dateLabel}${pastLabel ? ` <span class="date-tag">${window.MatsuriAccess.escapeHtml(pastLabel)}</span>` : ''}</div>
           <div class="event-card-meta">
             <span class="area">${window.MatsuriAccess.escapeHtml(getAreaLabel(ev))}</span>
             <span class="dot">・</span>
@@ -121,6 +122,7 @@
 
     function update() {
       renderMonthTabs(monthTabsEl, months, state, update);
+      updateFilterChipStates(filterPanelEl, state);
       const filtered = applyFilters(allRows, state, blockedDates);
       renderCards(cardsEl, filtered, blockedDates);
     }

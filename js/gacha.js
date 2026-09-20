@@ -1,6 +1,6 @@
 // gacha.js — 迷ったら1件提案する抽選画面
 (function () {
-  const { loadData, occurrences, genreCategory, isShrineEvent, todayStr, formatDateRange } = window.MatsuriData;
+  const { loadData, occurrences, genreCategory, sourceInfo, isShrineEvent, todayStr, formatDateRange } = window.MatsuriData;
   const { mergeBlockedDates } = window.MatsuriStorage;
   const { renderAccessBlock, escapeHtml } = window.MatsuriAccess;
 
@@ -187,11 +187,13 @@
     const ev = currentRow.event;
     const dateObj = currentRow.date;
     const cat = genreCategory(ev);
+    const src = sourceInfo(ev);
     const stars = '★'.repeat((ev.audience && ev.audience.kidScore) || 0) + '☆'.repeat(5 - ((ev.audience && ev.audience.kidScore) || 0));
 
     main.innerHTML = `
       <section class="card-step result-view">
         <article class="gacha-result cat-${cat.key}">
+          <span class="source-badge source-${src.key}">${src.icon} ${src.label}</span>
           <div class="gacha-result-date">${formatDateRange(dateObj)}${dateObj.timeStart ? `　${dateObj.timeStart}〜${dateObj.timeEnd || ''}` : ''}</div>
           <h2 class="gacha-result-name">${escapeHtml(ev.name)}</h2>
           <p class="gacha-result-summary">${escapeHtml(overviewLine(ev))}</p>

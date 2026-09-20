@@ -25,6 +25,22 @@
     return genreCategory(event).key === 'shrine';
   }
 
+  // イベントの「出所」（ユーザー指定 / AI提案）。不正・欠損値は claude 扱いにフォールバックする。
+  const SOURCE_INFO = {
+    user: { key: 'user', label: 'あなたの指定', icon: '📌' },
+    claude: { key: 'claude', label: 'AI提案', icon: '✨' },
+  };
+
+  function normalizeSource(events) {
+    events.forEach(ev => {
+      if (ev.source !== 'user' && ev.source !== 'claude') ev.source = 'claude';
+    });
+  }
+
+  function sourceInfo(event) {
+    return SOURCE_INFO[event.source] || SOURCE_INFO.claude;
+  }
+
   let _cache = null;
   async function loadData() {
     if (_cache) return _cache;
@@ -32,6 +48,7 @@
       fetch(DATA_URLS.events).then(r => r.json()),
       fetch(DATA_URLS.blocked).then(r => r.json()),
     ]);
+    normalizeSource(eventsDoc.events);
     _cache = {
       origin: eventsDoc.origin,
       events: eventsDoc.events,
@@ -82,6 +99,7 @@
     occurrences,
     genreCategory,
     isShrineEvent,
+    sourceInfo,
     todayStr,
     formatDateRange,
     GENRE_CATEGORY_RULES,

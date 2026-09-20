@@ -13,6 +13,7 @@
       kidScore: 0,          // 0(指定なし) | 3 | 4 | 5
       scales: [],           // 選択された規模（OR条件）。空 = 全て
       excludeNg: true,      // NG日を除外する
+      source: 'all',         // 'all' | 'user' | 'claude'
     };
   }
 
@@ -72,6 +73,7 @@
         if (score == null || score < state.kidScore) return false;
       }
       if (state.scales.length > 0 && !state.scales.includes(ev.scale && ev.scale.sizeRank)) return false;
+      if (state.source !== 'all' && window.MatsuriData.sourceInfo(ev).key !== state.source) return false;
       if (state.excludeNg && isBlockedRow(row, blockedDates)) return false;
       return true;
     });
@@ -148,6 +150,14 @@
           <span class="frow-label">規模</span>
           <div class="chip-row" id="filter-scale">${SCALE_CHIPS.map(s => chipHtml(s, s, state.scales.includes(s), 'scale')).join('')}</div>
         </div>
+        <div class="frow">
+          <span class="frow-label">出所</span>
+          <div class="chip-row" id="filter-source">
+            ${chipHtml('all', 'すべて', state.source === 'all', 'source')}
+            ${chipHtml('user', '📌 あなたの指定のみ', state.source === 'user', 'source')}
+            ${chipHtml('claude', '✨ AI提案のみ', state.source === 'claude', 'source')}
+          </div>
+        </div>
       </div>
     `;
 
@@ -190,6 +200,19 @@
     wireSingleChip('#filter-duration', 'duration', Number);
     wireSingleChip('#filter-parking', 'parking', String);
     wireSingleChip('#filter-kid', 'kidScore', Number);
+    wireSingleChip('#filter-source', 'source', String);
+  }
+
+  // renderFilterPanelは初回のDOM構築のみを担う（パネルの開閉状態を保つため再構築しない）。
+  // チップの選択状態はここでstateに合わせて反映し直す。
+  function updateFilterChipStates(container, state) {
+    container.querySelectorAll('#filter-genre .chip').forEach(b => b.classList.toggle('is-active', state.genres.includes(b.dataset.genre)));
+    container.querySelectorAll('#filter-access .chip').forEach(b => b.classList.toggle('is-active', state.access === b.dataset.access));
+    container.querySelectorAll('#filter-duration .chip').forEach(b => b.classList.toggle('is-active', state.duration === Number(b.dataset.duration)));
+    container.querySelectorAll('#filter-parking .chip').forEach(b => b.classList.toggle('is-active', state.parking === b.dataset.parking));
+    container.querySelectorAll('#filter-kid .chip').forEach(b => b.classList.toggle('is-active', state.kidScore === Number(b.dataset.kid)));
+    container.querySelectorAll('#filter-scale .chip').forEach(b => b.classList.toggle('is-active', state.scales.includes(b.dataset.scale)));
+    container.querySelectorAll('#filter-source .chip').forEach(b => b.classList.toggle('is-active', state.source === b.dataset.source));
   }
 
   window.MatsuriFilter = {
@@ -199,5 +222,6 @@
     applyFilters,
     renderMonthTabs,
     renderFilterPanel,
+    updateFilterChipStates,
   };
 })();
