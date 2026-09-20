@@ -154,7 +154,7 @@
           <span class="frow-label">出所</span>
           <div class="chip-row" id="filter-source">
             ${chipHtml('all', 'すべて', state.source === 'all', 'source')}
-            ${chipHtml('user', '📌 あなたの指定のみ', state.source === 'user', 'source')}
+            ${chipHtml('user', "📌 尚's セレクトのみ", state.source === 'user', 'source')}
             ${chipHtml('claude', '✨ AI提案のみ', state.source === 'claude', 'source')}
           </div>
         </div>

@@ -27,7 +27,7 @@
 
   // イベントの「出所」（ユーザー指定 / AI提案）。不正・欠損値は claude 扱いにフォールバックする。
   const SOURCE_INFO = {
-    user: { key: 'user', label: 'あなたの指定', icon: '📌' },
+    user: { key: 'user', label: "尚's セレクト", icon: '📌' },
     claude: { key: 'claude', label: 'AI提案', icon: '✨' },
   };
 
