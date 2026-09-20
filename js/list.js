@@ -51,7 +51,6 @@
 
     return `
       <a class="event-card cat-${cat.key}${block ? ' is-blocked' : ''}" href="event.html?id=${encodeURIComponent(ev.id)}&d=${dateIndex}">
-        ${scaleImg ? `<img class="event-card-thumb" src="${scaleImg}" alt="規模ランク${rank}のイメージ" loading="lazy">` : ''}
         <div class="event-card-main">
           <div class="event-card-name"><span class="source-badge source-${src.key}">${src.icon} ${src.label}</span> ${window.MatsuriAccess.escapeHtml(ev.name)}${dateLabel}${pastLabel ? ` <span class="date-tag">${window.MatsuriAccess.escapeHtml(pastLabel)}</span>` : ''}</div>
           <div class="event-card-meta">
@@ -65,6 +64,7 @@
           </div>
           ${timeLabel ? `<div class="event-card-time">${timeLabel}</div>` : ''}
         </div>
+        ${scaleImg ? `<img class="event-card-thumb" src="${scaleImg}" alt="規模ランク${rank}のイメージ" loading="lazy">` : ''}
         ${block ? `<div class="ng-badge">${window.MatsuriAccess.escapeHtml(block.label || 'NG日')}</div>` : ''}
         ${!block && isThisDateVisited ? `<div class="visited-badge">✓ 行った</div>` : ''}
       </a>
