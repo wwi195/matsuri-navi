@@ -1,0 +1,2665 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-20",
+  "origin": {
+    "name": "神奈川県綾瀬市",
+    "note": "綾瀬市内に鉄道駅はない。電車利用時は海老名駅・さがみ野駅・かしわ台駅・長後駅・大和駅のいずれかまで車またはバスで出る。高速は東名の綾瀬スマートICが最寄り。",
+    "trainGateways": [
+      "海老名駅",
+      "さがみ野駅",
+      "かしわ台駅",
+      "長後駅",
+      "大和駅"
+    ],
+    "nearestIC": "東名 綾瀬スマートIC"
+  },
+  "events": [
+    {
+      "id": "kawasaki-orion",
+      "name": "川崎・沖縄オリオン祭",
+      "kana": "かわさきおきなわおりおんまつり",
+      "genre": [
+        "フェス",
+        "グルメ",
+        "伝統芸能"
+      ],
+      "dates": [
+        {
+          "start": "2026-09-19",
+          "end": "2026-09-19",
+          "timeStart": "10:00",
+          "timeEnd": "20:30"
+        },
+        {
+          "start": "2026-09-20",
+          "end": "2026-09-21",
+          "timeStart": "10:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "recurrence": "毎年9月の敬老の日を含む3連休",
+      "venue": {
+        "name": "川崎競馬場 内馬場広場・サンサン広場",
+        "address": "神奈川県川崎市川崎区富士見1-5-1",
+        "mapQuery": "川崎競馬場"
+      },
+      "history": {
+        "since": 2019,
+        "edition": null,
+        "summary": "川崎競馬場の敷地にはかつて富士瓦斯紡績の工場があり、沖縄出身の女性が多数働いていた。1924年発足の川崎沖縄県人会は2026年で102年目。その縁から川崎と沖縄の友好を願って2019年に始まった。会場では「川崎競馬場・沖縄100年の歩み展」も開催される。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。会場が広く、同種の川崎の沖縄イベント『はいさいFESTA』は5日間で20万人規模",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "アグー豚の丸焼き",
+          "沖縄そば",
+          "ゴーヤチャンプルー",
+          "琉球焼きそば",
+          "タコス",
+          "ブルーシールアイス",
+          "オリオンビール"
+        ],
+        "note": "物産展と有料ワークショップ（琉球ガラス、星砂、与那国馬はりこ）も併設"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "若者",
+          "沖縄出身者・県人会"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 3,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 50,
+          "distanceKm": 42,
+          "route": "東名 綾瀬スマートIC → 横浜町田 → 保土ヶ谷バイパス・首都高経由",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": true,
+          "type": "競馬場駐車場（日中のみ）／マーケットスクエア川崎イースト（有料）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "9/19は16:50以降、競馬場の駐車場が使えない。夜の部と野外映画を狙うならマーケットスクエア川崎イーストの有料駐車場へ。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄本線)→ 横浜 →(JR京浜東北線)→ 川崎 徒歩約12分",
+          "minutes": 55,
+          "fareYen": 750
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "入場無料。ワークショップのみ有料"
+      },
+      "weather": "荒天中止",
+      "official": "https://yomiuriland-kawasakikeiba.com/",
+      "tags": [
+        "屋外映画あり",
+        "夜の部あり",
+        "沖縄"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "マーケットスクエア川崎イーストの駐車料金",
+          "車の所要時間の実測"
+        ]
+      },
+      "memo": "9/19のみ17:15〜20:30の夜の部あり。同日17:45から大型ビジョンで野外映画の無料上映（2026年は『ミッション：インポッシブル／ファイナル・レコニング』）。10/31にも別作品の上映予定。"
+    },
+    {
+      "id": "hadano-tabako",
+      "name": "秦野たばこ祭",
+      "kana": "はだのたばこまつり",
+      "genre": [
+        "祭り",
+        "花火",
+        "パレード"
+      ],
+      "dates": [
+        {
+          "start": "2026-09-26",
+          "end": "2026-09-27",
+          "timeStart": "10:00",
+          "timeEnd": "19:00"
+        }
+      ],
+      "recurrence": "毎年9月最終土日",
+      "venue": {
+        "name": "秦野市立本町小学校周辺・市内目抜き通り",
+        "address": "神奈川県秦野市本町",
+        "mapQuery": "秦野市立本町小学校"
+      },
+      "history": {
+        "since": 1948,
+        "edition": 79,
+        "summary": "富士山の噴火による火山灰でやせた土地になった秦野が、葉たばこ栽培で復興した歴史に由来する。栽培への情熱を「火」にたとえて伝える祭りで、2026年で第79回。秦野市最大の観光行事。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "例年10万人規模とされるが要確認",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "非常に多い",
+        "highlight": [],
+        "note": "目抜き通り一帯に露店が並ぶ"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "若者"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 5,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 40,
+          "distanceKm": 30,
+          "route": "東名 綾瀬スマートIC → 秦野中井IC",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": true,
+          "type": "臨時駐車場＋無料シャトルバス",
+          "maxFeePerDay": 0,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "主催者は公共交通機関を推奨。会場周辺は両日とも交通規制。9/27は弘法山公園が通行止め。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 秦野 徒歩10分",
+          "minutes": 30,
+          "fareYen": 380
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "クラウドファンディングによる花火有料観覧席あり"
+      },
+      "weather": "要確認",
+      "official": "https://www.kankou-hadano.org/tabakomatsuri/",
+      "tags": [
+        "花火",
+        "交通規制あり",
+        "有料席あり",
+        "夜まで"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "臨時駐車場の場所と台数",
+          "シャトルバスの運行時間",
+          "雨天時の扱い"
+        ]
+      },
+      "memo": "花火は9/27（日）19:30〜20:00、約2,000発・約30分。打上場所は権現山山頂などで、市内の広い範囲から見える。9/26はオープニングパレード、御輿パレード、ジャンボ火起こし綱引きコンテスト、火鳥風月。9/27はたばこ音頭パレード、らんたん巡行、弘法の火祭、打上花火。"
+    },
+    {
+      "id": "fujisawa-shimin",
+      "name": "藤沢市民まつり",
+      "kana": "ふじさわしみんまつり",
+      "genre": [
+        "祭り",
+        "パレード",
+        "市民祭"
+      ],
+      "dates": [
+        {
+          "start": "2026-09-26",
+          "end": "2026-09-27",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年9月最終土日",
+      "venue": {
+        "name": "藤沢駅周辺／秋葉台文化体育館・公園周辺（遠藤・御所見エリア）",
+        "address": "神奈川県藤沢市",
+        "mapQuery": "秋葉台文化体育館"
+      },
+      "history": {
+        "since": 1974,
+        "edition": 51,
+        "summary": "1974年から続く市内最大級の祭典で、2026年で51回目。市民自らが企画・参加する形で受け継がれてきた。2026年のテーマは「思わず“キュン”と好きになる」。"
+      },
+      "scale": {
+        "visitors": 403890,
+        "visitorsNote": "2025年（第50回）の実績。別開催の湘南台ファンタジアとの合算値",
+        "sizeRank": "XL"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [],
+        "note": "藤沢駅周辺に神輿と出店が集中。鉄道3社（JR・小田急・江ノ電）のブースでは制服を着た写真撮影や無料ミニゲームがあり、子ども向けの参加賞も出る。"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "幅広い"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 4,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "either",
+        "car": {
+          "minutes": 25,
+          "distanceKm": 15,
+          "route": "県道22号・467号経由で秋葉台方面へ（藤沢駅会場は駐車場がないため非推奨）",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": false,
+          "type": "藤沢駅周辺会場は駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "high",
+          "note": "秋葉台エリアは綾瀬市から近く、車で行くならこちらが現実的。藤沢駅周辺は日曜のパレード時に交通規制。"
+        },
+        "train": {
+          "gateway": "長後駅",
+          "route": "長後 →(小田急江ノ島線)→ 藤沢 徒歩すぐ",
+          "minutes": 15,
+          "fareYen": 250
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "猛暑・荒天時は一部中止",
+      "official": "https://matsurishimin.wixsite.com/fujisawa",
+      "tags": [
+        "交通規制あり",
+        "子ども向け企画多め",
+        "2会場"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "各会場の開催時間",
+          "秋葉台会場の駐車場の有無と台数",
+          "パレードの開始時刻",
+          "藤沢市民まつり単独の来場者数"
+        ]
+      },
+      "memo": "2026年は「藤沢エリア（藤沢駅周辺）」と「遠藤・御所見エリア（秋葉台）」の2会場。例年あった遊行寺エリアは今年なし。日曜正午に北口大パレード（ベビーカー＆キッズ大行進は事前申込制）。関連イベントの湘南台ファンタジアは10/24〜25に別開催。"
+    },
+    {
+      "id": "yokosuka-kaikoku-hanabi",
+      "name": "よこすか開国花火大会",
+      "kana": "よこすかかいこくはなびたいかい",
+      "genre": [
+        "花火"
+      ],
+      "dates": [
+        {
+          "start": "2026-09-27",
+          "end": "2026-09-27",
+          "timeStart": "18:00",
+          "timeEnd": "18:30"
+        }
+      ],
+      "recurrence": "年により時期が変動（2026年は9月末）",
+      "venue": {
+        "name": "海辺つり公園／うみかぜ公園／新港ふ頭 ほか",
+        "address": "神奈川県横須賀市平成町3丁目",
+        "mapQuery": "うみかぜ公園 横須賀"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "横須賀市観光協会が主催する三浦半島最大級の花火大会。隅田川花火大会のコンクールで優勝実績のあるマルゴーが打ち上げを担当する。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [],
+        "note": ""
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "カップル",
+          "幅広い"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 5,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 60,
+          "distanceKm": 45,
+          "route": "保土ヶ谷バイパス → 横浜横須賀道路 → 横須賀IC",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": false,
+          "type": "専用駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "high",
+          "note": "主催者が公共交通機関を案内している。周辺のコインパーキングは開始数時間前に埋まる想定。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄本線)→ 横浜 →(京急本線)→ 県立大学 または 横須賀中央 徒歩",
+          "minutes": 75,
+          "fareYen": 1100
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "有料席あり（詳細は公式）"
+      },
+      "weather": "荒天中止・順延日なし",
+      "official": "https://yokosuka-hanabi.com/",
+      "tags": [
+        "花火",
+        "有料席あり",
+        "駐車場なし",
+        "遠征"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "有料席の価格",
+          "屋台の規模",
+          "帰りの駅の混雑・入場規制の有無"
+        ]
+      },
+      "memo": "約1万発を30分に凝縮。2026年は米海軍基地の「日米親善ヨコスカフレンドシップデー」が同日開催されないため、打上場所が新港沖から平成港沖へ変更。観覧エリアを新港ふ頭〜海辺つり公園まで広げて混雑を分散させる。場所取りはうみかぜ公園と海辺つり公園が9時から可能、新港ふ頭は17時開場。"
+    },
+    {
+      "id": "sagamihara-lantern-pan",
+      "name": "ハロウィンランタンフェス＆さがみはらパンまつり",
+      "kana": "はろうぃんらんたんふぇす あんど さがみはらぱんまつり",
+      "genre": [
+        "フェス",
+        "マルシェ",
+        "イルミ"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-03",
+          "end": "2026-10-03",
+          "timeStart": "10:00",
+          "timeEnd": "19:00"
+        }
+      ],
+      "recurrence": "毎年10月上旬",
+      "venue": {
+        "name": "相模原市立淵野辺公園・相模原ギオンベースボールパーク",
+        "address": "神奈川県相模原市中央区弥栄3-1-6",
+        "mapQuery": "相模原市立淵野辺公園"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "相模原市まち・みどり公社が淵野辺公園で開催する2部構成のイベント。昼はパンの祭典、夜はランタンの打ち上げという組み合わせが特徴。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "市内外のパン屋",
+          "フードトラック"
+        ],
+        "note": "昼の部はパン販売とワークショップ。夜の部にフードトラック、フェイスペイント、バルーンアート、フォトスポット。"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "子ども",
+          "カップル"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 3,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 45,
+          "distanceKm": 28,
+          "route": "国道16号経由（座間・相模原方面）",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": true,
+          "type": "公園駐車場（台数限定）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "主催者が「台数に限りがある」として公共交通機関を案内。夜の部まで通しで居るなら早めの入庫が必要。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄・JR直通または町田経由)→ 淵野辺 徒歩約15分",
+          "minutes": 50,
+          "fareYen": 600
+        }
+      },
+      "cost": {
+        "entryYen": 300,
+        "note": "夜の部は見学のみ300円（乳幼児無料）、ランタン参加は別途有料。昼のパンまつりの入場可否は要確認。"
+      },
+      "weather": "小雨決行／荒天時は10月17日（土）に順延",
+      "official": "https://fuchinobepark.sagamiharashi-machimidori.or.jp/event",
+      "tags": [
+        "2部構成",
+        "夜イベント",
+        "順延日あり",
+        "有料"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "ランタン参加費",
+          "昼のパンまつりの入場料の有無",
+          "出店パン屋の軒数",
+          "駐車場の台数",
+          "来場者数"
+        ]
+      },
+      "memo": "昼の「さがみはらパンまつり」は10:00〜15:00。夜の「ハロウィンランタンフェス」は17:00開場・18:30開始・19:00終了で、ランタンの打ち上げは実質30分。雨天時は10/17（土）に順延で、この日は江の島花火大会と重なる点に注意。"
+    },
+    {
+      "id": "isehara-dokan",
+      "name": "伊勢原観光道灌まつり",
+      "kana": "いせはらかんこうどうかんまつり",
+      "genre": [
+        "祭り",
+        "武者行列",
+        "パレード"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-03",
+          "end": "2026-10-03",
+          "timeStart": "13:00",
+          "timeEnd": "19:30"
+        },
+        {
+          "start": "2026-10-04",
+          "end": "2026-10-04",
+          "timeStart": "10:00",
+          "timeEnd": "17:30"
+        }
+      ],
+      "recurrence": "毎年10月第1土日",
+      "venue": {
+        "name": "伊勢原駅周辺・日産広場会場ほか",
+        "address": "神奈川県伊勢原市伊勢原",
+        "mapQuery": "伊勢原駅"
+      },
+      "history": {
+        "since": 1968,
+        "edition": 59,
+        "summary": "江戸城を築いた武将・太田道灌が晩年を伊勢原で過ごし、この地で没したことにちなむ祭り。2026年で第59回、伊勢原市最大の祭典。市制55周年記念として、3年ぶりに長野県茅野市から「御柱里曳き」を招致する。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。近隣市町村や県外からも人が集まる規模",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [],
+        "note": "市内各所にステージが立ち、歌・踊り・演奏が行われる"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "歴史好き",
+          "シニア"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 4,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 35,
+          "distanceKm": 22,
+          "route": "県道42号経由、または東名 綾瀬スマートIC → 厚木IC → 国道246号",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "両日とも会場周辺で交通規制あり。規制は終了時刻の約30分後まで続く（10/3は20:00頃、10/4は18:00頃まで）。駐車場情報は公式で要確認。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 伊勢原 徒歩すぐ",
+          "minutes": 20,
+          "fareYen": 270
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://www.city.isehara.kanagawa.jp/dokan-fes/",
+      "tags": [
+        "武者行列",
+        "交通規制あり",
+        "有名人出演",
+        "夜まで"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "駐車場の有無・場所・台数",
+          "行列の開始時刻",
+          "出店の規模",
+          "雨天時の扱い"
+        ]
+      },
+      "memo": "目玉は「太田道灌公鷹狩り行列」と「北条政子日向薬師参詣行列」。2026年は道灌役に気象予報士の木原実、政子役に女優の黒谷友香。3×3バスケのエキシビションマッチ、伊勢原なぞ解き街歩きなども併催。10/3は13:00開始と遅めのスタート。"
+    },
+    {
+      "id": "shibusai",
+      "name": "渋祭",
+      "kana": "しぶさい",
+      "genre": [
+        "祭り",
+        "市民祭"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-04",
+          "end": "2026-10-04",
+          "timeStart": "10:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "recurrence": "毎年10月上旬の日曜",
+      "venue": {
+        "name": "小田急江ノ島線 高座渋谷駅 東西ロータリー",
+        "address": "神奈川県大和市福田",
+        "mapQuery": "高座渋谷駅"
+      },
+      "history": {
+        "since": 2024,
+        "edition": 3,
+        "summary": "2024年に始まった大和市高座渋谷の新しい祭り。2026年で第3回。地域が一体となってつくり上げる形をとっている。"
+      },
+      "scale": {
+        "visitors": 30000,
+        "visitorsNote": "2025年（第2回）の実績。新しい祭りながら駅前が大混雑する規模",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "縁日"
+        ],
+        "note": "神輿と縁日が出る。ステージではダンスや演奏、ワークショップも。"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "子ども",
+          "地元住民"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 4,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 9,
+          "route": "県道42号・467号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前ロータリー開催のため専用駐車場は期待しにくい）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "駅前ロータリーが会場。周辺のコインパーキングか、近隣商業施設の利用を想定。"
+        },
+        "train": {
+          "gateway": "長後駅 または 大和駅",
+          "route": "長後・大和 →(小田急江ノ島線)→ 高座渋谷 徒歩すぐ",
+          "minutes": 15,
+          "fareYen": 200
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://www.city.yamato.lg.jp/gyosei/soshik/3/event/24538.html",
+      "tags": [
+        "近場",
+        "子ども向け",
+        "半日で済む"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "2026年の具体的なプログラム",
+          "駐車場の有無",
+          "出店数",
+          "雨天時の扱い"
+        ]
+      },
+      "memo": "綾瀬市から最も近いイベントの一つで、車20分・往復の負担が軽い。前回はさる回しやマスコットとの写真撮影など子ども向け企画が充実。10:00〜16:00の日中開催なので、同日の伊勢原道灌まつり（10:00〜17:30）とのハシゴは物理的には可能だが、どちらも混雑するため現実的ではない。"
+    },
+    {
+      "id": "atsugi-ayu",
+      "name": "あつぎ鮎まつり",
+      "kana": "あつぎあゆまつり",
+      "genre": [
+        "祭り",
+        "花火",
+        "パレード"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-10",
+          "end": "2026-10-11",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "2026年から10月開催に移動（従来は8月上旬）",
+      "venue": {
+        "name": "相模川三川合流点・厚木中心市街地",
+        "address": "神奈川県厚木市中町ほか",
+        "mapQuery": "相模川 三川合流点 厚木"
+      },
+      "history": {
+        "since": 1947,
+        "edition": 80,
+        "summary": "相模川の鮎にちなむ厚木市最大の祭りで、2026年で第80回。記念の年にあたり、80回記念花火の打ち上げがある。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "従来の8月開催時は2日間で数十万人規模。10月移動後の実績は未知数",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "非常に多い",
+        "highlight": [
+          "市民出店村"
+        ],
+        "note": "中心市街地に「市民出店村」が立つ"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "若者"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 5,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 30,
+          "distanceKm": 15,
+          "route": "県道22号・国道246号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "花火当日は広範囲で交通規制。海老名側の河川敷は全席指定の有料観覧席のためチケットが必要。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 本厚木 徒歩",
+          "minutes": 15,
+          "fareYen": 200
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "海老名側河川敷は有料指定席（チケット必須）。厚木側河川敷などは無料観覧可。"
+      },
+      "weather": "花火は中止の場合、延期なし",
+      "official": "https://www.atsugi-kankou.jp/site/ayu-festival/",
+      "tags": [
+        "花火",
+        "有料席あり",
+        "交通規制あり",
+        "近場",
+        "80回記念"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "駐車場の場所と台数",
+          "有料観覧席の価格",
+          "花火の打上数",
+          "無料観覧エリアの混雑度"
+        ]
+      },
+      "memo": "花火は10/10（土）17:40〜19:00、相模川三川合流点から。観覧場所は厚木側河川敷・海老名側河川敷（全席指定・有料）・旭町スポーツ広場・金田第二青少年広場。10/10はオープニングセレモニー、パレード、民踊総おどり、Atsugi Dance Legend。10/11はこども鮎つかみどり（事前申込制・受付は8/25〜9/8で終了）、みこしショー。※10/10は小学校運動会と重なるため、行けるとすれば10/11か、運動会後の夜の花火のみ。"
+    },
+    {
+      "id": "yokohama-yosakoi",
+      "name": "横浜よさこい祭り〜良い世さ来い",
+      "kana": "よこはまよさこいまつり",
+      "genre": [
+        "フェス",
+        "踊り"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-17",
+          "end": "2026-10-18",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年10月中旬の土日",
+      "venue": {
+        "name": "みなとみらい新港地区 全7会場",
+        "address": "神奈川県横浜市中区新港ほか",
+        "mapQuery": "横浜ワールドポーターズ"
+      },
+      "history": {
+        "since": null,
+        "edition": 11,
+        "summary": "2026年で第11回。みなとみらいの街を舞台に、全国から集まったよさこいチームが演舞する。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "出演は延べ約120チーム・約2,800名の踊り子",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "少ない",
+        "highlight": [],
+        "note": "商業施設が会場のため、屋台よりも周辺の店舗を利用する形"
+      },
+      "audience": {
+        "ageGroups": [
+          "幅広い",
+          "家族連れ",
+          "観光客"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 3,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 50,
+          "distanceKm": 38,
+          "route": "保土ヶ谷バイパス → 首都高狩場線・横羽線経由",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": true,
+          "type": "周辺商業施設の有料駐車場",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "みなとみらいは駐車場自体は多いが週末は高い。1日停めると3,000円前後を見込む。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄本線)→ 横浜 →(みなとみらい線)→ みなとみらい・馬車道 徒歩",
+          "minutes": 50,
+          "fareYen": 650
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "観覧無料"
+      },
+      "weather": "雨天決行・荒天中止",
+      "official": "https://www.yokohama-yosakoi.com/",
+      "tags": [
+        "観覧無料",
+        "2日間",
+        "会場分散"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "各会場の演舞時間",
+          "来場者数",
+          "駐車場の実際の料金",
+          "屋台・飲食の有無"
+        ]
+      },
+      "memo": "会場は日によって異なる。10/17は横浜ワールドポーターズ屋上、ハンマーヘッドパーク、MARINE & WALK YOKOHAMA、カップヌードルミュージアムパーク。10/18は象の鼻パーク、新港中央広場、新港合同庁舎広場、横浜ワールドポーターズ屋上。カップヌードルミュージアムなど子ども向け施設が近く、演舞と組み合わせやすい。"
+    },
+    {
+      "id": "enoshima-hanabi",
+      "name": "ふじさわ江の島花火大会",
+      "kana": "ふじさわえのしまはなびたいかい",
+      "genre": [
+        "花火"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-17",
+          "end": "2026-10-17",
+          "timeStart": "18:00",
+          "timeEnd": "18:30"
+        }
+      ],
+      "recurrence": "毎年10月中旬",
+      "venue": {
+        "name": "片瀬海岸西浜（沖合の台船から打上）",
+        "address": "神奈川県藤沢市片瀬海岸",
+        "mapQuery": "片瀬海岸西浜"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "秋の湘南を彩る花火大会。海上の台船から打ち上げるため、浜辺の広い範囲から見える。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "打上数は約1,000発と少なめだが、最大二十号玉が上がる",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [],
+        "note": "江の島・片瀬海岸周辺の飲食店が使える"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "カップル",
+          "観光客"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 4,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 35,
+          "distanceKm": 20,
+          "route": "県道22号・467号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": true,
+          "type": "周辺の有料駐車場のみ",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "江の島周辺の駐車場は花火当日の夕方には満車になる想定。海岸沿いの渋滞も激しい。"
+        },
+        "train": {
+          "gateway": "長後駅",
+          "route": "長後 →(小田急江ノ島線)→ 片瀬江ノ島 徒歩2分",
+          "minutes": 30,
+          "fareYen": 350
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "有料席の有無は要確認"
+      },
+      "weather": "荒天中止・順延日なし",
+      "official": "https://www.kanagawa-kankou.or.jp/event/6320",
+      "tags": [
+        "花火",
+        "二十号玉",
+        "短時間",
+        "海"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "有料席の有無と価格",
+          "屋台の規模",
+          "来場者数",
+          "帰りの片瀬江ノ島駅の混雑・入場規制"
+        ]
+      },
+      "memo": "打上は18:00〜18:30の30分間、約1,000発。最大二十号玉が上がるため、発数の割に見ごたえがある。小田急線で片瀬江ノ島駅から徒歩2分、江ノ電なら江ノ島駅から7分、湘南モノレールなら湘南江の島駅から8分。※共有リストにあった『イルミ』は湘南の宝石のことと思われるが、開催は12/1〜2/28のため、この日には点灯していない。"
+    },
+    {
+      "id": "yeg-halloween-night",
+      "name": "横浜イングリッシュガーデン ハロウィンナイト",
+      "kana": "よこはまいんぐりっしゅがーでん はろうぃんないと",
+      "genre": [
+        "イルミ",
+        "庭園",
+        "夜間開園"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-23",
+          "end": "2026-10-25",
+          "timeStart": "17:30",
+          "timeEnd": "20:00"
+        }
+      ],
+      "recurrence": "毎年10月下旬の金土日3日間限定",
+      "venue": {
+        "name": "横浜イングリッシュガーデン",
+        "address": "神奈川県横浜市西区西平沼町6-1",
+        "mapQuery": "横浜イングリッシュガーデン"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "バラを基調にした英国式庭園。ハロウィンの時期に合わせて園内をハロウィン装飾し、夜間だけの限定ライトアップイベント「ハロウィンナイト」を3日間だけ開催する（通常の昼のハロウィン・ディスプレイ展示とは別枠）。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "施設内イベントのため大規模ではない",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": 0,
+        "level": "なし",
+        "highlight": [],
+        "note": "屋台形式ではなく庭園入場イベント"
+      },
+      "audience": {
+        "ageGroups": [
+          "カップル",
+          "家族連れ",
+          "写真好き"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 2,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 55,
+          "distanceKm": 40,
+          "route": "保土ヶ谷バイパス経由",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": true,
+          "type": "施設駐車場（有料）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "low",
+          "note": "商業施設併設のため駐車場は確保しやすい。夜間短時間の利用が中心。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄・JR直通)→ 横浜 →(相鉄バスまたは徒歩)→ 会場",
+          "minutes": 60,
+          "fareYen": 700
+        }
+      },
+      "cost": {
+        "entryYen": 1000,
+        "note": "2025年実績：大人1,000円・子ども500円・未就学児無料。オンライン事前購入制（楽天・アソビュー）。2026年料金は要確認。"
+      },
+      "weather": "要確認",
+      "official": "https://y-eg.jp/",
+      "tags": [
+        "夜イベント",
+        "3日間限定",
+        "有料",
+        "屋台なし"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "2026年の料金（2025年実績：大人1,000円・子ども500円）",
+          "雨天時の対応",
+          "駐車場の台数と料金"
+        ]
+      },
+      "memo": "開催日はユーザー確認済み：2026年10月23日(金)・24日(土)・25日(日)。3日間限定の夜間ライトアップイベントで、通常の昼のハロウィン・ディスプレイ展示とは別枠。"
+    },
+    {
+      "id": "atsugi-ekimae-fes",
+      "name": "厚木駅前フェスティバル",
+      "kana": "あつぎえきまえふぇすてぃばる",
+      "genre": [
+        "祭り",
+        "フリマ",
+        "ダンス"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-31",
+          "end": "2026-10-31",
+          "timeStart": "10:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "rainDate": {
+        "date": "2026-11-01",
+        "note": "雨天時はこちらに順延"
+      },
+      "recurrence": "毎年10月最終週の土曜（過去実績：2024年10/27、2025年10/26は日曜開催だったが2026年は10/31土曜）",
+      "venue": {
+        "name": "人の森株式会社（厚木駅前栄光会主催）",
+        "address": "神奈川県海老名市中新田1762",
+        "mapQuery": "人の森株式会社 海老名"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "小田急線・厚木駅前の商店会（厚木駅前栄光会）が主催する地域密着型の祭り。『リトル海老名市民まつり』とも呼ばれる。会場の厚木駅は海老名市内にある点に注意（相模川対岸の厚木市中心部ではない）。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。地域規模のイベント",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [
+          "キッチンカー",
+          "フリーマーケット"
+        ],
+        "note": "巨大砂山、ボルダリング、トランポリン（1回100円）などの体験ブースあり。小学生以下にラムネの無料配布あり（先着・時間指定）。"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "子ども",
+          "地元住民"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 25,
+          "distanceKm": 12,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": false,
+          "type": "会場内駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "mid",
+          "note": "主催者は公共交通機関の利用を推奨。近隣のコインパーキングを使う想定。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 厚木 徒歩約5分",
+          "minutes": 10,
+          "fareYen": 160
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "体験ブースの一部（トランポリン等）は有料"
+      },
+      "weather": "雨天時は11/1（日）に順延",
+      "official": "",
+      "tags": [
+        "子ども向け",
+        "近場",
+        "半日",
+        "順延日あり"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "会場の詳細",
+          "出店数"
+        ]
+      },
+      "memo": "開催日はユーザー確認済み：2026年10月31日(土)、雨天時は11月1日(日)に順延。"
+    },
+    {
+      "id": "ebina-shimin",
+      "name": "えびな市民まつり",
+      "kana": "えびなしみんまつり",
+      "genre": [
+        "祭り",
+        "花火",
+        "市民祭"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-15",
+          "end": "2026-11-15",
+          "timeStart": "09:30",
+          "timeEnd": "18:30"
+        }
+      ],
+      "recurrence": "毎年11月中旬の日曜",
+      "venue": {
+        "name": "海老名運動公園",
+        "address": "神奈川県海老名市",
+        "mapQuery": "海老名運動公園"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "海老名市最大の市民祭り。2026年は市制施行55周年記念にあたり、例年10:00開始のところ9:30開始に拡充。日中から夜の花火まで1日通しで楽しめる構成。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。海老名市最大級の祭り",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [],
+        "note": "詳細プログラムは今後発表予定"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "幅広い"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 4,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 10,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": true,
+          "type": "運動公園駐車場",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "海老名市最大の祭りのため、公園駐車場は早い時間に満車になる想定。詳細は市公式の「アクセス・交通規制」ページを確認。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄バスまたは徒歩)→ 海老名運動公園",
+          "minutes": 20,
+          "fareYen": 210
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "荒天中止",
+      "official": "https://www.city.ebina.kanagawa.jp/shisei/profile/1008687/index.html",
+      "tags": [
+        "花火",
+        "近場",
+        "夜まで",
+        "市制55周年"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "ステージ・出店の詳細プログラム",
+          "花火の打上数",
+          "駐車場の台数と料金",
+          "来場者数"
+        ]
+      },
+      "memo": "花火は17:30〜18:00の30分間。海老名運動公園は綾瀬市から車20分程度と近く、日中から花火まで滞在しやすい。市制55周年で開始時刻が9:30に前倒しされ、例年より内容が拡充される見込み。"
+    },
+    {
+      "id": "shonandai-fantasia",
+      "name": "藤沢市民まつり 湘南台ファンタジア",
+      "kana": "しょうなんだいふぁんたじあ",
+      "genre": [
+        "祭り",
+        "パレード",
+        "サンバ",
+        "マルシェ"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-24",
+          "end": "2026-10-25",
+          "timeStart": "10:00",
+          "timeEnd": "17:00"
+        }
+      ],
+      "recurrence": "毎年10月下旬の土日",
+      "venue": {
+        "name": "湘南台駅前東西大通り／湘南台公園／原谷公園",
+        "address": "神奈川県藤沢市湘南台",
+        "mapQuery": "湘南台駅"
+      },
+      "history": {
+        "since": 2002,
+        "edition": 25,
+        "summary": "藤沢市民まつりの北部エリア版として湘南台で開催される祭りで、2026年で第25回の節目。パレード、複数ステージ、フリーマーケット、フードマーケット、犬まつり・猫まつりなど多彩な企画を持つ。9月に開催される藤沢駅周辺の『藤沢市民まつり』本体とは別日程・別会場。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "藤沢市民まつり全体では2025年に約40万人（湘南台ファンタジア分含む合算値）",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "フードマーケット"
+        ],
+        "note": "フリーマーケットとフードマーケットが常設的に出る"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "ペット連れ",
+          "幅広い"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 4,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 10,
+          "route": "県道22号・42号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前会場のため専用駐車場は期待しにくい）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "湘南台駅周辺は商業施設が多く、有料駐車場を利用する形になる見込み。"
+        },
+        "train": {
+          "gateway": "長後駅",
+          "route": "長後 →(小田急江ノ島線)→ 湘南台 徒歩すぐ",
+          "minutes": 10,
+          "fareYen": 160
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://www.shonandai-fantasia.net/",
+      "tags": [
+        "パレード",
+        "犬・猫まつり",
+        "近場",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "駐車場の有無",
+          "サンバパレードの開始時刻",
+          "来場者数単独値",
+          "犬まつり・猫まつりの詳細"
+        ]
+      },
+      "memo": "新規候補。綾瀬市から車20分・電車10分と好条件。藤沢市民まつり（9月・藤沢駅周辺）とは別イベントなので取り違えに注意。パレードは駅前東西大通り、ステージは湘南台公園と原谷公園の2会場に分かれる。"
+    },
+    {
+      "id": "setagaya-boroichi",
+      "name": "世田谷ボロ市",
+      "kana": "せたがやぼろいち",
+      "genre": [
+        "市",
+        "骨董",
+        "冬の風物詩"
+      ],
+      "dates": [
+        {
+          "start": "2026-12-15",
+          "end": "2026-12-16",
+          "timeStart": "09:00",
+          "timeEnd": "20:00"
+        },
+        {
+          "start": "2027-01-15",
+          "end": "2027-01-16",
+          "timeStart": "09:00",
+          "timeEnd": "20:00"
+        }
+      ],
+      "recurrence": "毎年12/15・16、1/15・16（固定日、曜日は年により変動）",
+      "venue": {
+        "name": "世田谷区「ボロ市通り」とその周辺",
+        "address": "東京都世田谷区世田谷1丁目",
+        "mapQuery": "世田谷ボロ市通り"
+      },
+      "history": {
+        "since": 1578,
+        "edition": null,
+        "summary": "安土桃山時代の1578年、小田原北条氏が世田谷に楽市を開いたのが起源とされる、440年以上続く市。江戸時代には年の暮れの市として発展し、明治期に古着やボロ布を扱う市場に変化して現在の名前になった。東京都指定無形民俗文化財。"
+      },
+      "scale": {
+        "visitors": 200000,
+        "visitorsNote": "1日あたりの人出。2日間×2回（年4日間）で延べ相当数になる",
+        "sizeRank": "XL"
+      },
+      "stalls": {
+        "count": 600,
+        "level": "非常に多い",
+        "highlight": [
+          "代官餅",
+          "骨董品",
+          "古着"
+        ],
+        "note": "約600の露店が通り沿いに並ぶ。名物「代官餅」に長い行列ができる。"
+      },
+      "audience": {
+        "ageGroups": [
+          "幅広い",
+          "骨董好き",
+          "シニア",
+          "観光客"
+        ],
+        "kidScore": 2,
+        "crowdLevel": 5,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 75,
+          "distanceKm": 45,
+          "route": "東名 綾瀬スマートIC → 東名 → 首都高3号渋谷線 → 用賀出口",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": false,
+          "type": "会場に駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "high",
+          "note": "公式に駐車場なしと明記。周辺は交通規制（午前7時〜午後10時）もあり、車での来場は非推奨。用賀・三軒茶屋周辺のコインパーキング＋徒歩か、素直に電車がよい。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 経堂 →(バス)→ または 下北沢 →(東急世田谷線)→ 世田谷・上町 徒歩3分",
+          "minutes": 70,
+          "fareYen": 700
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "雨天決行",
+      "official": "https://www.city.setagaya.lg.jp/02072/10108.html",
+      "tags": [
+        "電車専用",
+        "夜まで",
+        "遠征",
+        "歴史的",
+        "駐輪場も限定"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "世田谷代官行列の2026年開催有無（5年ごと・次回は令和9年度予定のため2026年は非開催の可能性が高い）",
+          "各時間帯の混雑ピーク"
+        ]
+      },
+      "memo": "駐車場なし・交通規制ありのため電車専用イベントとして分類（access.recommend: train）。所要時間が長く綾瀬市からは遠征扱い。名物の代官餅の行列は開始直後から長蛇になる。5年に一度の「世田谷代官行列」は前回実施年次第だが、次回は令和9年度（2027年度）予定とあり2026年は通常開催の可能性が高い。"
+    },
+    {
+      "id": "ana-hachiman-toji",
+      "name": "穴八幡宮 一陽来復（冬至祭）",
+      "kana": "あなはちまんぐう いちようらいふく",
+      "genre": [
+        "神社行事",
+        "御守頒布"
+      ],
+      "dates": [
+        {
+          "start": "2026-12-22",
+          "end": "2026-12-22",
+          "timeStart": "05:00",
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年冬至の日（12/21または12/22）に頒布開始、節分まで継続",
+      "venue": {
+        "name": "穴八幡宮",
+        "address": "東京都新宿区西早稲田2-1-11",
+        "mapQuery": "穴八幡宮"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "御守「一陽来復」は聖武天皇の時代、冬至の日に龍神から授かった宝器（打出小槌）に由来するとされ、江戸中期から冬至の福神祭で授与されてきた全国唯一の御守。金運・商売繁盛の御守として知られ、冬至・大晦日・節分の深夜0時に指定の方角へ貼るのが習わし。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。冬至当日は早朝から数時間待ちの行列ができる規模",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": 0,
+        "level": "なし",
+        "highlight": [],
+        "note": "祭りというより参拝・御守頒布行事。出店の情報はなし"
+      },
+      "audience": {
+        "ageGroups": [
+          "幅広い",
+          "商売関係者",
+          "シニア"
+        ],
+        "kidScore": 1,
+        "crowdLevel": 5,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "train",
+        "car": {
+          "minutes": 80,
+          "distanceKm": 48,
+          "route": "東名 綾瀬スマートIC → 首都高 → 早稲田出口",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（都心の住宅街のため期待薄）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "都心の神社で駐車場情報は未公表。早朝から長時間並ぶ行事のため、そもそも車での来訪自体が現実的でない。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄・JR直通)→ 渋谷 →(東京メトロ副都心線・東西線等)→ 早稲田 徒歩約10分",
+          "minutes": 80,
+          "fareYen": 900
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "御守は有料（頒布価格は要確認）"
+      },
+      "weather": "屋外での行列待ちが発生するため防寒必須",
+      "official": "https://www.anahachimanguu.jp/ichiyouraifuku/",
+      "tags": [
+        "電車専用",
+        "早朝",
+        "行列必至",
+        "遠征",
+        "祭りではない"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "御守の頒布価格",
+          "駐車場の有無",
+          "2026年の混雑実績"
+        ]
+      },
+      "memo": "厳密には『祭り・イベント』というより参拝行事。冬至当日（2026/12/22）は5:00から頒布開始で、夜明け前から数時間待ちの行列ができる。混雑を避けるなら平日午前9〜11時頃、または1月中旬〜下旬の平日午前中が狙い目。他のイベントと違い、家族の外出というより個人の参拝目的向き。【確認済み】収録対象として残す方針。ジャンル・扱いは他の祭りイベントとは別カテゴリ（神社行事・縁起もの）として実装側で区別する想定。"
+    },
+    {
+      "id": "hodogaya-shukuba",
+      "name": "保土ケ谷宿場まつり",
+      "kana": "ほどがやしゅくばまつり",
+      "genre": [
+        "祭り",
+        "地域まつり"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-11",
+          "end": "2026-10-12",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年10月の体育の日（スポーツの日）前後の連休",
+      "venue": {
+        "name": "保土ケ谷駅西口周辺・イコット広場",
+        "address": "神奈川県横浜市保土ケ谷区岩間町",
+        "mapQuery": "保土ケ谷駅西口"
+      },
+      "history": {
+        "since": 1990,
+        "edition": 34,
+        "summary": "平成2年（1990年）、旧東海道の宿場町だった保土ケ谷の歴史を後世に伝え、地域を盛り上げる目的で始まった祭り。2026年で34回目。"
+      },
+      "scale": {
+        "visitors": 30000,
+        "visitorsNote": "2日間の合計来場者数",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [],
+        "note": "地元協賛企業・個人による飲食・サービス出店。イコット広場にはキッズ村（子ども向けサテライト会場）あり"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "幅広い"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 3,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 55,
+          "distanceKm": 40,
+          "route": "保土ヶ谷バイパス経由",
+          "highway": true,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前商店街エリアのため専用駐車場は期待薄）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "保土ヶ谷バイパス沿いのため車でのアクセス自体は悪くないが、会場周辺は商店街の通行止めがある想定。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄本線)→ 横浜 →(JR横須賀線・湘南新宿ライン)→ 保土ケ谷 徒歩5分",
+          "minutes": 55,
+          "fareYen": 550
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://syukuba.net/",
+      "tags": [
+        "体育の日",
+        "キッズ向けエリアあり",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "駐車場の有無",
+          "10/11・10/12それぞれのプログラム内容",
+          "出店数",
+          "交通規制の範囲"
+        ]
+      },
+      "memo": "新規候補。10/11(日)〜12(月・祝)の2日間開催で、綾瀬市からは45km圏内ギリギリ（保土ケ谷バイパス沿いで車自体は行きやすい）。同日10/12に海老名で『かながわグルメ＆特産市』も開催されるが、方向が逆（横浜方面 vs 海老名）のためハシゴは非現実的。"
+    },
+    {
+      "id": "kanagawa-gourmet-tokusanichi",
+      "name": "かながわグルメ＆特産市",
+      "kana": "かながわぐるめあんどとくさんいち",
+      "genre": [
+        "マルシェ",
+        "グルメ"
+      ],
+      "dates": [
+        {
+          "start": "2026-10-12",
+          "end": "2026-10-12",
+          "timeStart": "10:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "recurrence": "毎年10月の体育の日（スポーツの日）に開催と見られる（要継続確認）",
+      "venue": {
+        "name": "海老名駅西口中心広場",
+        "address": "神奈川県海老名市扇町13",
+        "mapQuery": "海老名駅西口"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "神奈川県商工会連合会が主催し、県内19の商工会と連携して開催するグルメ・特産品イベント。神奈川各地のローカルフードや生産者こだわりの特産品を一堂に集める。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [
+          "県内19商工会の特産品",
+          "キッチンカー"
+        ],
+        "note": "物販中心で、キッチンカーによるできたてグルメ販売もあり"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "幅広い",
+          "グルメ好き"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 10,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（海老名駅前のため近隣商業施設の有料駐車場を想定）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "海老名駅西口の商業施設駐車場が利用しやすい立地。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 徒歩すぐ（西口中心広場）",
+          "minutes": 20,
+          "fareYen": 0
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://www.enjoytokyo.jp/event/2080666/",
+      "tags": [
+        "近場",
+        "半日",
+        "グルメ",
+        "新規候補",
+        "体育の日"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "雨天時の対応",
+          "駐車場の有無",
+          "毎年開催かどうかの継続性",
+          "来場者数"
+        ]
+      },
+      "memo": "新規候補。綾瀬市から車20分と至近で、半日で済む軽めの外出先。県内の産直マルシェ系イベントで、飲食中心の内容。同日に横浜・保土ケ谷宿場まつりもあるが方向違いのため二者択一。"
+    },
+    {
+      "id": "yamato-mirai-matsuri",
+      "name": "やまとみらいまつり",
+      "kana": "やまとみらいまつり",
+      "genre": [
+        "文化祭",
+        "体験",
+        "記念行事"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "timeStart": "10:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "recurrence": "大和市文化創造拠点シリウス開館記念（11月上旬、9/29〜11/11の期間イベントのメイン日）",
+      "venue": {
+        "name": "大和市文化創造拠点シリウス ほか7施設",
+        "address": "神奈川県大和市大和南1-8-1",
+        "mapQuery": "大和市文化創造拠点シリウス"
+      },
+      "history": {
+        "since": null,
+        "edition": 8,
+        "summary": "大和市の複合文化施設「シリウス」の開館記念イベントで、2026年で8周年。シリウス本体に加え、つきみ野学習センター、ポラリス市民交流拠点、中央林間図書館など市内7施設をまたいで開催される。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。屋内文化施設イベントのため祭りより小規模",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": 0,
+        "level": "なし",
+        "highlight": [],
+        "note": "屋台形式ではなく、館内での体験・ワークショップ・演奏中心"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "子ども",
+          "幅広い"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 25,
+          "distanceKm": 13,
+          "route": "県道42号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": true,
+          "type": "大和駅周辺の商業施設駐車場",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "大和駅直結の複合施設のため駐車場自体はある。土日は混雑しやすい。"
+        },
+        "train": {
+          "gateway": "大和駅",
+          "route": "相鉄線・小田急江ノ島線 大和駅 徒歩すぐ",
+          "minutes": 25,
+          "fareYen": 350
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "全イベント無料"
+      },
+      "weather": "屋内中心のため天候影響は限定的",
+      "official": "https://www.yamato-future.jp/events/event4778/",
+      "tags": [
+        "屋内",
+        "全年齢対応",
+        "雨天でも安心",
+        "新規候補",
+        "文化の日"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "駐車場の台数",
+          "全プログラムの詳細"
+        ]
+      },
+      "memo": "新規候補。屋外イベントが天候に左右されがちな11月上旬に、雨天でも安心な屋内選択肢として使える。同日11/3にはあつぎ七沢森のまつり（厚木市）もあり、方向は逆だが2択として記録。"
+    },
+    {
+      "id": "nanasawa-mori-matsuri",
+      "name": "あつぎ七沢森のまつり",
+      "kana": "あつぎななさわもりのまつり",
+      "genre": [
+        "マルシェ",
+        "グルメ",
+        "自然"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "timeStart": "10:00",
+          "timeEnd": "15:00"
+        }
+      ],
+      "recurrence": "毎年11月3日（文化の日）",
+      "venue": {
+        "name": "神奈川県立七沢森林公園",
+        "address": "神奈川県厚木市七沢",
+        "mapQuery": "七沢森林公園"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "厚木市北部の七沢森林公園で開催される秋の味覚イベント。名物のしし鍋や地元野菜の直売が目玉で、自然の中で厚木の秋を楽しむ内容。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。公園イベントとして中規模",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [
+          "しし鍋",
+          "地元野菜直売"
+        ],
+        "note": "森林公園内での出店・直売中心"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "自然好き",
+          "幅広い"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 45,
+          "distanceKm": 25,
+          "route": "東名 綾瀬スマートIC → 厚木IC → 県道64号",
+          "highway": true,
+          "tollYen": null
+        },
+        "parking": {
+          "available": true,
+          "type": "七沢森林公園駐車場",
+          "maxFeePerDay": 0,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "公園の駐車場を利用可能。紅葉シーズンと重なるため混雑する可能性あり。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 本厚木 →(バス)→ 七沢",
+          "minutes": 60,
+          "fareYen": 600
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "飲食は有料"
+      },
+      "weather": "要確認",
+      "official": "",
+      "tags": [
+        "自然",
+        "グルメ",
+        "文化の日",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "出店数",
+          "2026年開催の最終確認"
+        ]
+      },
+      "memo": "新規候補。同日11/3に大和市『やまとみらいまつり』もあるが方向が逆（厚木 vs 大和）のため二択。森林公園内のため紅葉狩りと組み合わせやすい。"
+    },
+    {
+      "id": "atsugi-torinoichi",
+      "name": "厚木酉の市",
+      "kana": "あつぎとりのいち",
+      "genre": [
+        "神社行事",
+        "縁起もの"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-07",
+          "end": "2026-11-07",
+          "timeStart": "14:00",
+          "timeEnd": "20:00"
+        }
+      ],
+      "recurrence": "毎年11月の酉の日（2026年は一の酉のみ、11/7）",
+      "venue": {
+        "name": "大鷲神社",
+        "address": "神奈川県厚木市中町1-8付近",
+        "mapQuery": "大鷲神社 厚木"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "元は屋敷神だった大鷲神社が、参拝客の増加を受けて明治中期に浅草の酉の市にならって始めたとされる。開運・商売繁盛を願う縁起熊手の露店が並ぶ。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [
+          "縁起熊手"
+        ],
+        "note": "熊手を売る露店が中心"
+      },
+      "audience": {
+        "ageGroups": [
+          "商売関係者",
+          "幅広い",
+          "シニア"
+        ],
+        "kidScore": 2,
+        "crowdLevel": 3,
+        "nightEvent": true
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 30,
+          "distanceKm": 15,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": false,
+          "type": "専用駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "mid",
+          "note": "近隣の有料駐車場を利用。東名厚木ICから車10分、圏央道海老名ICから車5分と好立地。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 本厚木 徒歩7分",
+          "minutes": 15,
+          "fareYen": 200
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "熊手は有料"
+      },
+      "weather": "雨天決行",
+      "official": "https://www.atsugi-kankou.jp/soshiki/atsugi-ta/torinoichi.html",
+      "tags": [
+        "夜イベント",
+        "近場",
+        "縁起もの",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "熊手の価格帯",
+          "混雑ピーク時間"
+        ]
+      },
+      "memo": "新規候補。同日11/7〜8に『あつぎ国際大道芸』も本厚木駅周辺で開催されるため、昼は大道芸・夜は酉の市というハシゴが現実的（同じ本厚木駅周辺）。"
+    },
+    {
+      "id": "atsugi-daidogei",
+      "name": "にぎわい爆発あつぎ国際大道芸",
+      "kana": "にぎわいばくはつあつぎこくさいだいどうげい",
+      "genre": [
+        "大道芸",
+        "フェス"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-07",
+          "end": "2026-11-08",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年11月上旬の土日",
+      "venue": {
+        "name": "本厚木駅周辺の公園や街角",
+        "address": "神奈川県厚木市本厚木",
+        "mapQuery": "本厚木駅"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "本厚木駅周辺の公園や街角を舞台に、国内外のパフォーマーが大道芸を披露する厚木市の名物イベント。街全体がステージになる。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。厚木市の代表的なにぎわいイベント",
+        "sizeRank": "L"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [],
+        "note": "詳細プログラムは10月頃に発表予定（調査時点で未確定）"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "幅広い"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 3,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 30,
+          "distanceKm": 15,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前商店街エリアのため専用駐車場は期待薄）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "high",
+          "note": "本厚木駅周辺は近隣の有料駐車場利用が現実的。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(小田急小田原線)→ 本厚木 徒歩すぐ",
+          "minutes": 15,
+          "fareYen": 200
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "https://www.city.atsugi.kanagawa.jp/soshiki/shogyonigiwaika/2/52798.html",
+      "tags": [
+        "大道芸",
+        "近場",
+        "新規候補",
+        "詳細未発表"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "詳細プログラム（10月頃発表予定）",
+          "来場者数",
+          "駐車場の有無"
+        ]
+      },
+      "memo": "新規候補。同日・同エリアで『厚木酉の市』（11/7夜）と組み合わせやすい。"
+    },
+    {
+      "id": "ichigo-marche-ebina",
+      "name": "ICHIGO MARCHE（イチゴマルシェ）",
+      "kana": "いちごまるしぇ",
+      "genre": [
+        "マルシェ",
+        "グルメ",
+        "ハンドメイド"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-14",
+          "end": "2026-11-15",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎月開催の定期マルシェ（開催時期ごとにテーマが変わる）",
+      "venue": {
+        "name": "ビナガーデンズ パーチ前テラス・めぐみ町広場",
+        "address": "神奈川県海老名市めぐみ町3",
+        "mapQuery": "ビナガーデンズ 海老名"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "海老名駅前で毎月開催される定期マルシェ。地元産の新鮮野菜やスイーツ、ハンドメイド雑貨などを扱う出店が集まる。テラスエリアと広場エリアの2区画で開催。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": 42,
+        "level": "普通",
+        "highlight": [
+          "地元産野菜",
+          "スイーツ",
+          "ハンドメイド雑貨"
+        ],
+        "note": "テラスエリア約27店舗＋広場エリア約15店舗、キッチンカー5台程度（月により変動）"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "女性",
+          "幅広い"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "either",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 10,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": false,
+          "type": "会場に専用駐車場なし",
+          "maxFeePerDay": null,
+          "capacity": 0,
+          "fullRisk": "mid",
+          "note": "海老名駅周辺の商業施設駐車場を利用する形。海老名駅直結で電車が使いやすい。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 徒歩約1分",
+          "minutes": 20,
+          "fareYen": 0
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "荒天中止の可能性あり（要確認）",
+      "official": "",
+      "tags": [
+        "近場",
+        "半日",
+        "毎月開催",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "11月開催回のテーマ・詳細プログラム",
+          "荒天時の対応"
+        ]
+      },
+      "memo": "新規候補。海老名駅から徒歩1分と極めて近く、半日で気軽に立ち寄れる。毎月開催されるため、他の月の空き日にも代替候補として使える定番枠。"
+    },
+    {
+      "id": "ayase-sangyo-matsuri",
+      "name": "農商工連携 あやせ産業まつり〜商工フェア・農業収穫祭〜",
+      "kana": "あやせさんぎょうまつり",
+      "genre": [
+        "産業まつり",
+        "グルメ",
+        "マルシェ"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-22",
+          "end": "2026-11-22",
+          "timeStart": "09:00",
+          "timeEnd": "15:00"
+        }
+      ],
+      "recurrence": "毎年11月下旬の日曜（2025年実績：11/23）",
+      "venue": {
+        "name": "綾瀬市オーエンス文化会館 第1駐車場",
+        "address": "神奈川県綾瀬市早川city2559",
+        "mapQuery": "綾瀬市オーエンス文化会館"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "綾瀬市内の農業・商業・工業の連携イベント。地場産の新鮮野菜、ご当地グルメ、お笑いライブなど盛りだくさんの内容で、市内農商工の魅力を一堂に紹介する。"
+      },
+      "vendorInfo": {
+        "boothFeeYen": {
+          "oneBooth": 4400,
+          "twoBooths": 8800
+        },
+        "applicationPeriod": "2026-08-03〜2026-08-31",
+        "vendorMeeting": "2026-10-16 15:00〜 綾瀬市商工会館2階会議室",
+        "generatorRental": false,
+        "note": "第2駐車場で開催予定の別イベントとは異なるため注意。出展者会議は出展・出店合同開催。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "地場産野菜",
+          "豚汁",
+          "ポン菓子"
+        ],
+        "note": "農産物品評会、よしもとお笑いライブ、あやせ・よさこい乱舞、大道芸、輪投げゲームなど"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "地元住民",
+          "幅広い"
+        ],
+        "kidScore": 4,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 10,
+          "distanceKm": 5,
+          "route": "市内主要道路経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": true,
+          "type": "オーエンス文化会館駐車場",
+          "maxFeePerDay": 0,
+          "capacity": null,
+          "fullRisk": "low",
+          "note": "会館の駐車場が利用可能。綾瀬市内在住なら最も気軽に行ける候補。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(バス)→ 綾瀬市役所方面",
+          "minutes": 25,
+          "fareYen": 300
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "",
+      "tags": [
+        "綾瀬市内",
+        "最短距離",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "来場者数",
+          "詳細プログラム"
+        ]
+      },
+      "memo": "新規候補。綾瀬市内で開催されるため、収録全件の中で最も近い部類に入る。開催日はユーザーが出店者向け案内で確認済み：2026年11月22日（日）9:00〜15:00、会場は綾瀬市オーエンス文化会館「第1駐車場」（第2駐車場で開催予定の別イベントと混同しないこと）。"
+    },
+    {
+      "id": "hiratsuka-kotto-ichi",
+      "name": "湘南ひらつか駅前骨董市",
+      "kana": "しょうなんひらつかえきまえこっとういち",
+      "genre": [
+        "骨董",
+        "フリマ"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-28",
+          "end": "2026-11-28",
+          "timeStart": "08:00",
+          "timeEnd": "16:00"
+        }
+      ],
+      "recurrence": "毎月第4土曜日の定期開催",
+      "venue": {
+        "name": "紅谷パールロード商店街",
+        "address": "神奈川県平塚市紅谷町",
+        "mapQuery": "紅谷パールロード商店街"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "JR平塚駅北口徒歩1分の商店街を舞台に、毎月第4土曜日に開催される定期骨董市。開催10周年を迎えた実績あるイベント。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "S"
+      },
+      "stalls": {
+        "count": 80,
+        "level": "多い",
+        "highlight": [
+          "和洋アンティーク",
+          "レトロ雑貨"
+        ],
+        "note": "約80店舗の骨董・アンティーク商が出店"
+      },
+      "audience": {
+        "ageGroups": [
+          "骨董好き",
+          "シニア",
+          "幅広い"
+        ],
+        "kidScore": 1,
+        "crowdLevel": 2,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 40,
+          "distanceKm": 28,
+          "route": "国道246号・県道44号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前商店街のため近隣有料駐車場を想定）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "小雨決行。朝8時からと開始が早い。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 →(相鉄・JR直通)→ 平塚 徒歩1分",
+          "minutes": 45,
+          "fareYen": 500
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "小雨決行",
+      "official": "https://pearlroad.jp/antiquefair/",
+      "tags": [
+        "毎月開催",
+        "早朝",
+        "骨董",
+        "新規候補",
+        "子ども向きでない"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "駐車場の有無",
+          "来場者数"
+        ]
+      },
+      "memo": "新規候補。子ども向けではなく大人向けの骨董市。毎月第4土曜開催のため他月の代替枠としても使える。"
+    },
+    {
+      "id": "chuorinkan-handmade-marche",
+      "name": "中央林間手づくりマルシェ（秋冬コレクション）",
+      "kana": "ちゅうおうりんかんてづくりまるしぇ",
+      "genre": [
+        "マルシェ",
+        "ハンドメイド"
+      ],
+      "dates": [
+        {
+          "start": "2026-11-29",
+          "end": "2026-11-29",
+          "timeStart": null,
+          "timeEnd": null
+        }
+      ],
+      "recurrence": "毎年11月最終日曜（春夏コレクションは5月開催）",
+      "venue": {
+        "name": "中央林間駅周辺",
+        "address": "神奈川県大和市中央林間",
+        "mapQuery": "中央林間駅"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "ハンドメイド作家による手作り雑貨・アート作品の販売市。ワークショップやコンサートも同時開催される、大和市中央林間の名物マルシェ。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "多い",
+        "highlight": [
+          "ハンドメイド雑貨",
+          "アート作品"
+        ],
+        "note": "作家の物販ブース中心。ワークショップ・コンサートあり"
+      },
+      "audience": {
+        "ageGroups": [
+          "女性",
+          "家族連れ",
+          "幅広い"
+        ],
+        "kidScore": 3,
+        "crowdLevel": 3,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "either",
+        "car": {
+          "minutes": 30,
+          "distanceKm": 15,
+          "route": "県道42号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（駅前商店街エリアのため近隣有料駐車場を想定）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": ""
+        },
+        "train": {
+          "gateway": "大和駅",
+          "route": "大和 →(東急田園都市線・小田急江ノ島線)→ 中央林間 徒歩すぐ",
+          "minutes": 10,
+          "fareYen": 160
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": ""
+      },
+      "weather": "要確認",
+      "official": "",
+      "tags": [
+        "ハンドメイド",
+        "近場",
+        "新規候補"
+      ],
+      "status": "confirmed",
+      "dataQuality": {
+        "todo": [
+          "正確な会場範囲",
+          "駐車場の有無",
+          "来場者数",
+          "出店数"
+        ]
+      },
+      "memo": "新規候補。年2回開催（5月春夏・11月秋冬）のうち秋冬コレクション。中央林間駅前が会場で、綾瀬市から電車10分と近い。"
+    },
+    {
+      "id": "odakyu-family-fun-festa",
+      "name": "おだきゅうFamily Fun フェスタ",
+      "kana": "おだきゅうふぁみりーふぁんふぇすた",
+      "genre": [
+        "鉄道イベント",
+        "フェス",
+        "子ども向け"
+      ],
+      "dates": [
+        {
+          "start": "2026-12-05",
+          "end": "2026-12-06",
+          "timeStart": null,
+          "timeEnd": null,
+          "confirmed": false,
+          "label": "(未確定)"
+        }
+      ],
+      "recurrence": "毎年12月第1土日（2024年12/7-8、2025年12/6-7の実績）",
+      "venue": {
+        "name": "海老名中央公園",
+        "address": "神奈川県海老名市中央",
+        "mapQuery": "海老名中央公園"
+      },
+      "history": {
+        "since": null,
+        "edition": null,
+        "summary": "小田急電鉄が主催する親子向け鉄道イベント。鉄道グッズ販売や体験コーナー、キャラクターグリーティングなどが行われる、毎年恒例の冬の人気イベント。"
+      },
+      "scale": {
+        "visitors": null,
+        "visitorsNote": "公表なし。海老名の冬の定番家族イベント",
+        "sizeRank": "M"
+      },
+      "stalls": {
+        "count": null,
+        "level": "普通",
+        "highlight": [
+          "鉄道グッズ",
+          "キッチンカー"
+        ],
+        "note": "鉄道関連の体験ブースが中心"
+      },
+      "audience": {
+        "ageGroups": [
+          "家族連れ",
+          "子ども",
+          "鉄道好き"
+        ],
+        "kidScore": 5,
+        "crowdLevel": 3,
+        "nightEvent": false
+      },
+      "access": {
+        "recommend": "car",
+        "car": {
+          "minutes": 20,
+          "distanceKm": 10,
+          "route": "国道246号・県道40号経由",
+          "highway": false,
+          "tollYen": 0
+        },
+        "parking": {
+          "available": null,
+          "type": "要確認（海老名中央公園周辺）",
+          "maxFeePerDay": null,
+          "capacity": null,
+          "fullRisk": "mid",
+          "note": "海老名駅から徒歩圏内のため電車も現実的。"
+        },
+        "train": {
+          "gateway": "海老名駅",
+          "route": "海老名 徒歩約10分",
+          "minutes": 20,
+          "fareYen": 0
+        }
+      },
+      "cost": {
+        "entryYen": 0,
+        "note": "入場無料"
+      },
+      "weather": "要確認",
+      "official": "",
+      "tags": [
+        "子ども向け",
+        "鉄道",
+        "近場",
+        "新規候補",
+        "日程未確定"
+      ],
+      "status": "tentative",
+      "dataQuality": {
+        "todo": [
+          "2026年の正式日程確定（公式発表なし。過去実績から12月第1土日＝12/5-6と推定して仮登録）",
+          "詳細プログラム"
+        ]
+      },
+      "memo": "新規候補。ユーザー確認：2026年の公式日程はまだ発表されていない。2024年12/7-8、2025年12/6-7と『12月第1土日』パターンが続いているため、2026年も12月第1土日（12/5-6）で仮登録し、日付欄に(未確定)と明記。公式発表が出次第、日程の確定確認が必要。"
+    }
+  ]
+}
