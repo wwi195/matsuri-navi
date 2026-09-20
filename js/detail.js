@@ -143,7 +143,7 @@
     const isThisDateVisited = !!visitedRecord && visitedRecord.date === dateObj.start;
     const pastLabel = pastVisitLabel(visitedRecord, dateObj);
 
-    document.title = `${ev.name}｜まつり・イベントナビ`;
+    document.title = `${ev.name}｜尚's selectイベントナビ`;
 
     main.innerHTML = `
       <a class="back-link" href="index.html">← 一覧に戻る</a>
