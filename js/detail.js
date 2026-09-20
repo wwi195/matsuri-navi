@@ -1,6 +1,6 @@
 // detail.js — イベント詳細画面の描画
 (function () {
-  const { loadData, getEventById, occurrences, genreCategory, sourceInfo, formatDateRange, todayStr } = window.MatsuriData;
+  const { loadData, getEventById, occurrences, genreCategory, sourceInfo, scaleImageUrl, formatDateRange, todayStr } = window.MatsuriData;
   const { mergeBlockedDates, getVisitedRecord, markVisited, unmarkVisited } = window.MatsuriStorage;
   const { renderAccessBlock, escapeHtml } = window.MatsuriAccess;
 
@@ -22,10 +22,16 @@
     const visitors = s.visitors != null ? `${s.visitors.toLocaleString('ja-JP')}人${s.visitorsNote ? '（' + escapeHtml(s.visitorsNote) + '）' : ''}` : `未調査${s.visitorsNote ? '（' + escapeHtml(s.visitorsNote) + '）' : ''}`;
     const rankNote = s.sizeRank ? `${s.sizeRank}（${RISK_NOTE[s.sizeRank] || ''}）` : '未調査';
     const crowd = ev.audience && ev.audience.crowdLevel ? CROWD_LABEL[ev.audience.crowdLevel] : '未調査';
+    const scaleImg = s.sizeRank ? scaleImageUrl(s.sizeRank) : null;
     return `
-      <div class="detail-row">規模ランク：${rankNote}</div>
-      <div class="detail-row">例年の来場者数：${visitors}</div>
-      <div class="detail-row">混雑度：${crowd}</div>
+      <div class="scale-section-body">
+        ${scaleImg ? `<img class="scale-thumb" src="${scaleImg}" alt="規模ランク${s.sizeRank}のイメージ" loading="lazy">` : ''}
+        <div class="scale-section-text">
+          <div class="detail-row">規模ランク：${rankNote}</div>
+          <div class="detail-row">例年の来場者数：${visitors}</div>
+          <div class="detail-row">混雑度：${crowd}</div>
+        </div>
+      </div>
     `;
   }
 

@@ -1,12 +1,22 @@
 // help.js — 各ページ共通の「？」ヘルプボタンとポップオーバー
 (function () {
+  function legendRow(rank, note) {
+    const img = window.MatsuriData ? window.MatsuriData.scaleImageUrl(rank) : null;
+    return `
+      <div>
+        ${img ? `<img class="scale-legend-thumb" src="${img}" alt="規模ランク${rank}のイメージ" loading="lazy">` : ''}
+        <span class="scale scale-${rank}">${rank}</span>${note}
+      </div>
+    `;
+  }
+
   const HELP_HTML = `
     <h3>規模ランクの目安（例年の来場者数）</h3>
     <div class="scale-legend">
-      <div><span class="scale scale-S">S</span>〜1万人</div>
-      <div><span class="scale scale-M">M</span>〜5万人</div>
-      <div><span class="scale scale-L">L</span>〜30万人</div>
-      <div><span class="scale scale-XL">XL</span>30万人〜</div>
+      ${legendRow('S', '〜1万人')}
+      ${legendRow('M', '〜5万人')}
+      ${legendRow('L', '〜30万人')}
+      ${legendRow('XL', '30万人〜')}
     </div>
     <hr class="help-sep">
     <h3>このページについて</h3>

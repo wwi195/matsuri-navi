@@ -41,6 +41,18 @@
     return SOURCE_INFO[event.source] || SOURCE_INFO.claude;
   }
 
+  // 規模ランクごとのイメージ画像。不明なランクは画像なし扱い。
+  const SCALE_IMAGE = {
+    S: 'images/scale-S.jpg',
+    M: 'images/scale-M.jpg',
+    L: 'images/scale-L.jpg',
+    XL: 'images/scale-XL.jpg',
+  };
+
+  function scaleImageUrl(rank) {
+    return SCALE_IMAGE[rank] || null;
+  }
+
   let _cache = null;
   async function loadData() {
     if (_cache) return _cache;
@@ -100,6 +112,7 @@
     genreCategory,
     isShrineEvent,
     sourceInfo,
+    scaleImageUrl,
     todayStr,
     formatDateRange,
     GENRE_CATEGORY_RULES,

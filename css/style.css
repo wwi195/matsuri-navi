@@ -71,6 +71,7 @@ a { color: var(--brand-dark); }
 .help-sep { border: none; border-top: 1px solid var(--line); margin: 10px 0; }
 .scale-legend div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
 .scale-legend .scale { display: inline-block; width: 26px; text-align: center; font-size: 11px; }
+.scale-legend-thumb { width: 28px; height: 38px; object-fit: cover; object-position: top center; border-radius: 3px; flex-shrink: 0; }
 
 .loading, .empty { text-align: center; color: var(--mute); padding: 40px 0; }
 
@@ -135,6 +136,14 @@ a { color: var(--brand-dark); }
   text-decoration: none;
   color: var(--ink);
   position: relative;
+}
+.event-card-thumb {
+  width: 48px;
+  height: 64px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: var(--radius);
+  flex-shrink: 0;
 }
 .event-card.cat-hanabi { border-left-color: var(--c-hanabi); }
 .event-card.cat-fes { border-left-color: var(--c-fes); }
@@ -222,6 +231,9 @@ a { color: var(--brand-dark); }
 .overview { margin: 0; }
 .detail-row { font-size: 14px; margin-bottom: 4px; }
 .detail-note { font-size: 13px; color: var(--mute); margin: 4px 0 0; }
+.scale-section-body { display: flex; gap: 12px; align-items: flex-start; }
+.scale-thumb { width: 88px; height: 118px; object-fit: cover; object-position: top center; border-radius: var(--radius); flex-shrink: 0; }
+.scale-section-text { flex: 1; min-width: 0; }
 .kid-score { color: var(--brand); letter-spacing: 1px; }
 
 .access-block { display: flex; flex-direction: column; gap: 10px; }

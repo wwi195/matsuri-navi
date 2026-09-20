@@ -1,6 +1,6 @@
 // list.js — トップ（カレンダー兼一覧）画面の描画
 (function () {
-  const { loadData, occurrences, genreCategory, sourceInfo, todayStr, formatDateRange } = window.MatsuriData;
+  const { loadData, occurrences, genreCategory, sourceInfo, scaleImageUrl, todayStr, formatDateRange } = window.MatsuriData;
   const { mergeBlockedDates, getVisitedRecord } = window.MatsuriStorage;
   const { defaultState, monthsAvailable, applyFilters, renderMonthTabs, renderFilterPanel, updateFilterChipStates } = window.MatsuriFilter;
 
@@ -40,6 +40,8 @@
   function eventCardHtml(ev, dateObj, dateIndex, blockedDates) {
     const cat = genreCategory(ev);
     const src = sourceInfo(ev);
+    const rank = (ev.scale && ev.scale.sizeRank) || 'S';
+    const scaleImg = scaleImageUrl(rank);
     const block = findBlock(blockedDates, dateObj);
     const visitedRecord = getVisitedRecord(ev.id);
     const isThisDateVisited = !!visitedRecord && visitedRecord.date === dateObj.start;
@@ -49,6 +51,7 @@
 
     return `
       <a class="event-card cat-${cat.key}${block ? ' is-blocked' : ''}" href="event.html?id=${encodeURIComponent(ev.id)}&d=${dateIndex}">
+        ${scaleImg ? `<img class="event-card-thumb" src="${scaleImg}" alt="規模ランク${rank}のイメージ" loading="lazy">` : ''}
         <div class="event-card-main">
           <div class="event-card-name"><span class="source-badge source-${src.key}">${src.icon} ${src.label}</span> ${window.MatsuriAccess.escapeHtml(ev.name)}${dateLabel}${pastLabel ? ` <span class="date-tag">${window.MatsuriAccess.escapeHtml(pastLabel)}</span>` : ''}</div>
           <div class="event-card-meta">
